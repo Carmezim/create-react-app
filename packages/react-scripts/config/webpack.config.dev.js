@@ -127,6 +127,17 @@ module.exports = {
         ],
         include: paths.appSrc,
       },
+      // Adding SASS
+      {
+        test: /\.scss$/,
+        use: [{
+          loader: "style-loader" // creates style nodes from JS strings
+          }, {
+          loader: "css-loader" // translates CSS into CommonJS
+          }, {
+          loader: "sass-loader" // compiles Sass to CSS
+        }]
+      },
       // ** ADDING/UPDATING LOADERS **
       // The "url" loader handles all assets unless explicitly excluded.
       // The `exclude` list *must* be updated with every change to loader extensions.
@@ -141,6 +152,7 @@ module.exports = {
           /\.html$/,
           /\.(js|jsx)$/,
           /\.css$/,
+          /\.scss$/,
           /\.json$/,
           /\.bmp$/,
           /\.gif$/,
@@ -171,7 +183,9 @@ module.exports = {
         options: {
           // @remove-on-eject-begin
           babelrc: false,
-          presets: [require.resolve('babel-preset-react-app')],
+          presets: [require.resolve('babel-preset-react-app'), 
+                    // added stage 2
+                    require.resolve('babel-preset-stage-2')],
           // @remove-on-eject-end
           // This is a feature of `babel-loader` for webpack (not Babel itself).
           // It enables caching results in ./node_modules/.cache/babel-loader/
