@@ -146,7 +146,7 @@ module.exports = {
           /\.html$/,
           /\.(js|jsx)$/,
           /\.css$/,
-          /\.scss$/,
+          /(\.scss|\.sass)$/,
           /\.json$/,
           /\.bmp$/,
           /\.gif$/,
