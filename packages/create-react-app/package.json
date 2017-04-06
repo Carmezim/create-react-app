@@ -1,24 +1,22 @@
 {
-  "name": "create-react-app",
-  "version": "1.3.0",
-  "keywords": [
-    "react"
-  ],
-  "description": "Create React apps with no build configuration.",
-  "repository": "facebookincubator/create-react-app",
+  "name": "custom-create=react=app",
+  "author": "react-team-adapted-by-Adriano-Carmezim",
+  "version": ""1.0.0"",
+  "description": "My adaptation of CRA with more awesomeness out of the box",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carmezim/create-react-app.git"
+  },
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=4"
-  },
-  "bugs": {
-    "url": "https://github.com/facebookincubator/create-react-app/issues"
   },
   "files": [
     "index.js",
     "createReactApp.js"
   ],
   "bin": {
-    "create-react-app": "./index.js"
+    "custom-react-app": "./index.js"
   },
   "dependencies": {
     "chalk": "^1.1.1",
