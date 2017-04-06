@@ -200,7 +200,7 @@ module.exports = {
               fallback: 'style-loader',
               use: [
                 {
-                  loader: 'css-loader',
+                  loader: 'style!css?modules&camelCase&-autoprefixer',
                   options: {
                     importLoaders: 1,
                   },
