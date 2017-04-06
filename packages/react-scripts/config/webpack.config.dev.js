@@ -185,7 +185,9 @@ module.exports = {
           babelrc: false,
           presets: [require.resolve('babel-preset-react-app'), 
                     // added stage 2
-                    require.resolve('babel-preset-stage-2')],
+                    require.resolve('babel-preset-stage-2'),
+                    // added Decorators
+                    require.resolve('babel-plugin-transform-decorators-legacy')],
           // @remove-on-eject-end
           // This is a feature of `babel-loader` for webpack (not Babel itself).
           // It enables caching results in ./node_modules/.cache/babel-loader/
