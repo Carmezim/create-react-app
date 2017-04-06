@@ -199,7 +199,7 @@ module.exports = {
         use: [
           'style-loader',
           {
-            loader: 'style!css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]',
+            loader: 'css-loader?modules&localIdentName=[name]__[local]___[hash:base64:5]',
             options: {
               importLoaders: 1,
             },
