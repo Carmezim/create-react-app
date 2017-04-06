@@ -1,5 +1,11 @@
 
-#### My adaption of CRA with new template, SASS, CSS Modules, Redux and Stage-2 out of the box.
+### My customization of CRA with more awesomeness out of the box.
 
+#### Features:
+- SASS
+- CSS Modules
+- Redux
+- Stage-2
+- Cleaner template
 #### Usage
 `create-react-app --scripts-version carmezim-custom`
