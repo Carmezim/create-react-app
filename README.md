@@ -1,7 +1,7 @@
 
-### My customization of CRA with more awesomeness out of the box.
+### My customization of CRA with more awesomeness out of the box
 
-#### Features:
+#### Features
 - SASS
 - CSS Modules
 - Redux
