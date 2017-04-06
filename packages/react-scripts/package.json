@@ -1,14 +1,17 @@
 {
-  "name": "react-scripts",
-  "version": "0.9.4",
-  "description": "Configuration and scripts for Create React App.",
-  "repository": "facebookincubator/create-react-app",
+  "name": "carmezim-custom",
+  "version": "0.1.0",
+  "description": "Carmezim's CRA customization with more awesomeness out of the box.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carmezim/create-react-app.git"
+  },
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=4"
   },
   "bugs": {
-    "url": "https://github.com/facebookincubator/create-react-app/issues"
+    "url": "https://github.com/carmezim/create-react-app/issues"
   },
   "files": [
     "bin",
