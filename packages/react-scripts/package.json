@@ -1,6 +1,6 @@
 {
   "name": "carmezim-custom",
-  "version": "0.2.9",
+  "version": "0.3.0",
   "description": "Carmezim's CRA customization with more awesomeness out of the box.",
   "repository": {
     "type": "git",
