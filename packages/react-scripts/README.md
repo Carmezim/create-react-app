@@ -9,4 +9,4 @@
 
 
 #### Usage
-`create-react-app --scripts-version carmezim-custom`
+`create-react-app your-app --scripts-version carmezim-custom`
