@@ -20,7 +20,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const spawn = require('cross-spawn');
 const chalk = require('chalk');
-const nra = require('npm-run-all);
+const nra = require('npm-run-all');
                     
 module.exports = function(
   appPath,
