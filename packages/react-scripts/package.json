@@ -1,6 +1,6 @@
 {
   "name": "carmezim-custom",
-  "version": "0.1.22",
+  "version": "0.2.5",
   "description": "Carmezim's CRA customization with more awesomeness out of the box.",
   "repository": {
     "type": "git",
@@ -68,10 +68,10 @@
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
     "node-sass": "^4.5.2",
-    "npm-run-all": "^4.0.2"
+    "npm-run-all": "^4.0.2",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
   },
   "optionalDependencies": {
     "fsevents": "1.0.17"
