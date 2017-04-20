@@ -20,7 +20,8 @@ const fs = require('fs-extra');
 const path = require('path');
 const spawn = require('cross-spawn');
 const chalk = require('chalk');
-
+const nra = require('npm-run-all);
+                    
 module.exports = function(
   appPath,
   appName,
@@ -44,7 +45,7 @@ module.exports = function(
   // Setup the script rules
   appPackage.scripts = {
     'startjs': "react-scripts start", 
-    'start': 'npm-run-all -p watch-css startjs', // runs app in dev with css watcher
+    'start': 'nra -p watch-css startjs', // runs app in dev with css watcher
     'build': 'npm run build-css && react-scripts build', 
     'test': 'react-scripts test --env=jsdom',
     'eject': 'react-scripts eject',
