@@ -43,13 +43,13 @@ module.exports = function(
 
   // Setup the script rules
   appPackage.scripts = {
-    start-js: "react-scripts start",
+    startjs: "react-scripts start",
     start: 'npm-run=all -p watch-css start-js',
     build: 'npm run build-css && react-scripts build',
     test: 'react-scripts test --env=jsdom',
     eject: 'react-scripts eject',
-    build-css: 'node-sass src/ -o src/',
-    watch-css: 'npm run build-css && node-sass src/ -o src/ --watch --recursive',
+    buildcss: 'node-sass src/ -o src/',
+    watchcss: 'npm run build-css && node-sass src/ -o src/ --watch --recursive',
   };
 
   fs.writeFileSync(
