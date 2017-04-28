@@ -45,7 +45,7 @@ module.exports = function(
   appPackage.scripts = {
   'build-css': 'node-sass src/ -o src/',
   'build-js': 'react-scripts build',
-  'build': "npm run build-css && npm run build-js',
+  'build': 'npm run build-css && npm run build-js',
   'start-css': 'npm run build-css && npm run build-css -- --watch --recursive',
   'start-js': 'react-scripts start',
   'start': 'npm-run-all -p start-css start-js',
