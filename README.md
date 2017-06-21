@@ -12,9 +12,7 @@
 
 ##### `create-react-app your-app --scripts-version carmezim-custom`
 
-<<<<<<< HEAD
 ##### `npm start` or `yarn start` and `npm build` or `yarn build` will now also watch and build SASS files by default.
-=======
 ```sh
 npm install -g create-react-app
 
