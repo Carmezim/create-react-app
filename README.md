@@ -13,13 +13,7 @@
 ##### `create-react-app your-app --scripts-version carmezim-custom`
 
 ##### `npm start` or `yarn start` and `npm build` or `yarn build` will now also watch and build SASS files by default.
-```sh
-npm install -g create-react-app
 
-create-react-app my-app
-cd my-app/
-npm start
-```
 
 Then open [http://localhost:3000/](http://localhost:3000/) to see your app.<br>
 When you’re ready to deploy to production, create a minified bundle with `npm run build`.
