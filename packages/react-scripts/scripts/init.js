@@ -46,7 +46,7 @@ module.exports = function(
   'build-css': 'node-sass src/ -o src/',
   'build-js': 'react-scripts build',
   'build': 'npm run build-css && npm run build-js',
-  'start-css': 'npm run build-css && npm run build-css -- --watch --recursive',
+  'start-css': 'npm run build-css && node-sass build-css src/ -o src/ --watch --recursive',
   'start-js': 'react-scripts start',
   'start': 'npm-run-all -p start-css start-js',
   'test': 'react-scripts test --env=jsdom',
